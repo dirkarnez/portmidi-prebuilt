@@ -14,7 +14,7 @@ jobs:
       libraryName: portmidi
       cmakeInstallationPath: portmidi-installation
       tagName: v2.0.4
-      mingwTargetZip: portmidi-${{ github.ref_name }}-x86_64-posix-seh-rev0-8.1.0.zip
+      mingwTargetZip: portmidi-${{ github.ref_name }}-mingw64-x86_64-posix-seh-rev0-8.1.0.zip
     steps:
       - name: check mingw version
         run: gcc --version
